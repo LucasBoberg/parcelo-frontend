@@ -5,9 +5,9 @@
 		height: 48px;
 		line-height: 48px;
 		z-index: 999;
-		width: 100%;
-		margin-left: 4vw;
-		margin-right: 4vw;
+		width: 92vw;
+		padding-left: 4vw;
+		padding-right: 4vw;
 		left: 50%;
 		vertical-align: center;
 		transform: translateX(-50%);
