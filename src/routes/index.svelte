@@ -1,3 +1,8 @@
+<script>
+	import Button from '../components/Button.svelte';
+	import ButtonOutline from '../components/ButtonOutline.svelte';
+</script>
+
 <style>
 	.navbar {
 		position: absolute;
@@ -9,16 +14,22 @@
 		padding-left: 4vw;
 		padding-right: 4vw;
 		left: 50%;
+		margin-top: 1rem;
 		vertical-align: center;
 		transform: translateX(-50%);
 	}
 	.navbar-title {
 		font-size: 1.4rem;
-		line-height: 48px;
-		margin: 0;
+		text-decoration: none;
+	}
+	.button-wrapper {
+		float: right;
+	}
+	:global(.log-in) {
+		margin-right: 1rem;
 	}
 	.hero {
-		background-color: #F4FDF8;
+		background-color: #E0FFEE;
 		height: 80vh;
 		position: relative;
 	}
@@ -81,7 +92,11 @@
 </svelte:head>
 
 <nav class="navbar">
-	<h1 class="navbar-title">Parcelo</h1>
+	<a href="/" class="navbar-title">Parcelo</a>
+	<div class="button-wrapper">
+		<ButtonOutline styleName="log-in" href="/log-in">Log in</ButtonOutline>
+		<Button href="/sign-up">Sign up</Button>
+	</div>
 </nav>
 
 <div class="hero">
