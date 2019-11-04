@@ -32,6 +32,7 @@
 		background-color: #E0FFEE;
 		height: 80vh;
 		position: relative;
+		margin-bottom: 6rem;
 	}
 	.hero-wrapper {
 		padding: 16vh 4vw 4rem 4vw;
@@ -57,8 +58,8 @@
 	.hero-input {
 		background-color: #FFF;
 		border: none;
-		border-top-left-radius: 5px;
-		border-bottom-left-radius: 5px;
+		border-top-left-radius: 10px;
+		border-bottom-left-radius: 10px;
 		padding: 1.2rem 1.6rem 1.2rem 3rem;
 		margin-right: -0.3rem;
 		font-size: 0.9rem;
@@ -73,8 +74,8 @@
 		outline: none;
 		cursor: pointer;
 		font-size: 0.9rem;
-		border-top-right-radius: 5px;
-		border-bottom-right-radius: 5px;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
 	}
 	.hero-submit:hover {
 		background-color: rgb(48, 215, 120);
@@ -84,6 +85,44 @@
 		position: absolute;
 		bottom: 0;
 		right: 0;
+	}
+	.container {
+		display: grid;
+		grid-template-columns: auto auto;
+		max-width: 50vw;
+		margin: 10vh auto;
+	}
+	.wide {
+		max-width: 70vw;
+	}
+	.grid-item {
+		width: 50%;
+		align-self: center;
+	}
+	.grid-item-40 {
+		width: 40%;
+	}
+	.grid-item-60 {
+		width: 60%;
+	}
+	.left {
+		text-align: left;
+		margin-left: 0;
+		margin-right: auto;
+	}
+	.right {
+		text-align: right;
+		margin-left: auto;
+		margin-right: 0;
+	}
+	.title {
+		font-size: 2rem;
+		margin-bottom: 0;
+	}
+	.image {
+		margin: 0 auto;
+		align-self: center;
+		justify-self: center;
 	}
 </style>
 
@@ -112,3 +151,40 @@
 	</div>
 	<img class="hero-logo-white" alt="logo-white" src="bike-white-logo.svg" />
 </div>
+
+<section class="container">
+	<div class="grid-item left">
+		<h3 class="title">Our Mission</h3>
+		<p>We at Parcelo UF are passionate about the local and invest wholeheartedly in helping local shops and companies to reach onebroader clientele through our website and app.</p>
+	</div>
+	<div class="grid-item">
+		<img class="image" alt="mission" src="mission.svg" />
+	</div>
+</section>
+<section class="container wide">
+	<div class="grid-item">
+		<img class="image" alt="how" src="how.svg" />
+		</div>
+	<div class="grid-item right">
+		<h3 class="title">How?</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+	</div>
+</section>
+<section class="container">
+	<div class="grid-item-60 left">
+		<h3 class="title">Explore the app</h3>
+		<p>Check out the app available on iOS and Android.</p>
+		<Button primary>Learn more</Button>
+	</div>
+	<div class="grid-item-40">
+		<img class="image" alt="app" src="app.svg" />
+	</div>
+</section>
+<section class="container">
+	<h3 class="title">Connected Stores</h3>
+	<p>We at Parcelo UF are passionate about the local and invest wholeheartedly in helping local shops and companies to reach onebroader clientele through our website and app.</p>
+</section>
+<section class="container">
+	<h3 class="title">Our Sponsors</h3>
+	<p>We at Parcelo UF are passionate about the local and invest wholeheartedly in helping local shops and companies to reach onebroader clientele through our website and app.</p>
+</section>
