@@ -1,6 +1,7 @@
 <script>
 	import Button from '../components/Button.svelte';
 	import ButtonOutline from '../components/ButtonOutline.svelte';
+	import Footer from '../components/Footer.svelte';
 </script>
 
 <style>
@@ -45,6 +46,10 @@
 	.hero-subtitle {
 		font-size: 1.4rem;
 		margin-bottom: 2.6rem;
+	}
+	.hero-subtitle2 {
+		font-size: 1.2rem;
+		margin-top: 1rem;
 	}
 	.hero-form {
 		position: relative;
@@ -111,7 +116,6 @@
 		margin-right: auto;
 	}
 	.right {
-		text-align: right;
 		margin-left: auto;
 		margin-right: 0;
 	}
@@ -127,35 +131,46 @@
 </style>
 
 <svelte:head>
-	<title>Parcelo</title>
+	<title>Parcelo - Få det levererat, snabbt</title>
 </svelte:head>
 
 <nav class="navbar">
 	<a href="/" class="navbar-title">Parcelo</a>
-	<div class="button-wrapper">
+	<!--div-- class="button-wrapper">
 		<ButtonOutline styleName="log-in" href="/log-in">Log in</ButtonOutline>
 		<Button href="/sign-up">Sign up</Button>
-	</div>
+	</!--div-->
 </nav>
 
 <div class="hero">
 	<div class="hero-wrapper">
 		<img class="hero-logo-black" alt="logo-black" src="bike-black-logo.svg" />
-		<h2 class="hero-title">Get it delivered, fast</h2>
+		<h2 class="hero-title">Få det levererat, snabbt</h2>
+		<h4 class="hero-subtitle">och samtidigt hjälp dina lokala butiker</h4>
+
+		<form class="hero-form" action="https://gmail.us5.list-manage.com/subscribe/post" method="POST">
+			<input type="hidden" name="u" value="9e83444939d4f4f4a6beab3fd">
+			<input type="hidden" name="id" value="15e3328fdf">
+			<img class="hero-icon-location" alt="icon-mail" src="ic-mail.svg" />
+			<input class="hero-input" autocomplete="off" type="email" name="MERGE0" id="MERGE0" placeholder="Din e-postadress" />
+			<button class="hero-submit" type="submit">Få tillgång i förväg</button>
+		</form>
+		<h4 class="hero-subtitle2">Bli först om att få prova Parcelo.</h4>
+		<!--h2 class="hero-title">Get it delivered, fast</!--h2>
 		<h4 class="hero-subtitle">support you local shops</h4>
-		<form class="hero-form">
+		<form-- class="hero-form">
 			<img class="hero-icon-location" alt="icon-location" src="ic-location.svg" />
 			<input class="hero-input" autocomplete="off" type="text" name="find" placeholder="Enter your address..." />
 			<button class="hero-submit" type="submit"><img alt="submit-icon" src="arrow_right.svg"/></button>
-		</form>
+		</form-->
 	</div>
 	<img class="hero-logo-white" alt="logo-white" src="bike-white-logo.svg" />
 </div>
 
 <section class="container">
 	<div class="grid-item left">
-		<h3 class="title">Our Mission</h3>
-		<p>We at Parcelo UF are passionate about the local and invest wholeheartedly in helping local shops and companies to reach onebroader clientele through our website and app.</p>
+		<h3 class="title">Vårt Mål</h3>
+		<p>Vi på Parcelo UF brinner för det lokala och satsar på att hjälpa lokala butiker och företag att nå en bredare kundkrets genom vår webbplats och app.</p>
 	</div>
 	<div class="grid-item">
 		<img class="image" alt="mission" src="mission.svg" />
@@ -166,25 +181,26 @@
 		<img class="image" alt="how" src="how.svg" />
 		</div>
 	<div class="grid-item right">
-		<h3 class="title">How?</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+		<h3 class="title">Hur?</h3>
+		<p>Du beställer från någon av dina lokala butiker som sedan skickar vidare din beställning till en av våra cyklister. Cyklisten levererar sedan varan hem till din dörr eller vilken annan adress som du en valt.</p>
 	</div>
 </section>
 <section class="container">
 	<div class="grid-item-60 left">
-		<h3 class="title">Explore the app</h3>
-		<p>Check out the app available on iOS and Android.</p>
-		<Button primary>Learn more</Button>
+		<h3 class="title">Utforska appen</h3>
+		<p>Appen finns snart tillgänglig på både iOS och Android.</p>
+		<!--Button-- primary>Learn more</!--Button-->
 	</div>
 	<div class="grid-item-40">
 		<img class="image" alt="app" src="app.svg" />
 	</div>
 </section>
-<section class="container">
+<!--section class="container">
 	<h3 class="title">Connected Stores</h3>
 	<p>We at Parcelo UF are passionate about the local and invest wholeheartedly in helping local shops and companies to reach onebroader clientele through our website and app.</p>
-</section>
-<section class="container">
+</!--section>
+<section-- class="container">
 	<h3 class="title">Our Sponsors</h3>
 	<p>We at Parcelo UF are passionate about the local and invest wholeheartedly in helping local shops and companies to reach onebroader clientele through our website and app.</p>
-</section>
+</section-->
+<Footer />
