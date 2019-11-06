@@ -93,6 +93,7 @@
 		transition: background-color 0.1s ease-in-out;
 	}
 	.hero-submit:hover {
+		cursor: not-allowed;
 		background-color: rgb(48, 215, 120);
 	}
 	.hero-submit:disabled, .hero-submit[disabled] {
