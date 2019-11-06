@@ -2,6 +2,14 @@
 	import Button from '../components/Button.svelte';
 	import ButtonOutline from '../components/ButtonOutline.svelte';
 	import Footer from '../components/Footer.svelte';
+
+	import { form } from 'svelte-forms';
+
+	let email = "";
+
+	const emailForm = form(() => ({
+		email: {value: email, validators: ["required", "email"]}
+	}));
 </script>
 
 <style>
@@ -82,9 +90,13 @@
 		font-size: 0.9rem;
 		border-top-right-radius: 10px;
 		border-bottom-right-radius: 10px;
+		transition: background-color 0.1s ease-in-out;
 	}
 	.hero-submit:hover {
 		background-color: rgb(48, 215, 120);
+	}
+	.hero-submit:disabled, .hero-submit[disabled] {
+		background-color: rgb(142, 142, 142);
 	}
 	.hero-logo-white {
 		z-index: 90;
@@ -290,8 +302,8 @@
 			<input type="hidden" name="u" value="9e83444939d4f4f4a6beab3fd">
 			<input type="hidden" name="id" value="15e3328fdf">
 			<img class="hero-icon-location" alt="icon-mail" src="ic-mail.svg" />
-			<input class="hero-input" autocomplete="off" type="email" name="MERGE0" id="MERGE0" placeholder="Din e-postadress" />
-			<button class="hero-submit" type="submit">Få tillgång i förväg</button>
+			<input class="hero-input" autocomplete="off" type="email" name="MERGE0" id="MERGE0" placeholder="Din e-postadress" bind:value={email} class:invalid={!$emailForm.email.valid} />
+			<button class="hero-submit" type="submit" disabled={!$emailForm.valid}>Få tillgång i förväg</button>
 		</form>
 		<h4 class="hero-subtitle2">Bli först om att få prova Parcelo.</h4>
 		<!--h2 class="hero-title">Get it delivered, fast</!--h2>
