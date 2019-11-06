@@ -32,6 +32,7 @@
 	.hero {
 		background-color: #E0FFEE;
 		height: 80vh;
+		width: 100%;
 		position: relative;
 		margin-bottom: 6rem;
 	}
@@ -128,6 +129,143 @@
 		align-self: center;
 		justify-self: center;
 	}
+	@media screen and (max-width: 1062px) {
+		.hero-logo-white {
+			width: 30%;
+			height: auto;
+		}
+		.container {
+			max-width: 80vw;
+		}
+		.con-right {
+			grid-template-columns: auto 60%;
+		}
+		.wide-image {
+			width: 22rem;
+		}
+  }
+	@media screen and (max-width: 780px) {
+		.hero-logo-black {
+			width: 4rem;
+		}
+		.hero-title {
+			font-size: 2.6rem;
+		}
+		.hero-subtitle {
+			font-size: 1rem;
+		}
+		.hero-subtitle2 {
+			font-size: 0.9rem;
+		}
+
+		.con-right {
+			grid-template-columns: auto;
+		}
+		.right.wide-item {
+			grid-row: 1;
+		}
+		.wide-item {
+			text-align: center;
+			width: 100%;
+			margin-bottom: 1rem;
+		}
+		.con-app {
+			grid-template-columns: auto;
+		}
+		.grid-item-60, .grid-item-40 {
+			text-align: center;
+			max-width: 90vw;
+			width: 100%;
+		}
+	}
+	@media screen and (max-width: 600px) {
+		.hero-input {
+			font-size: 0.8rem;
+			width: 14rem;
+		}
+		.hero-submit {
+			font-size: 0.8rem;
+		}
+		.image-mission {
+			display: none;
+		}
+		.container {
+			max-width: 90vw;
+			grid-template-columns: auto;
+		}
+		.grid-item {
+			width: 100%;
+			max-width: 90vw;
+			text-align: center;
+		}
+		.wireframe {
+			width: 80%;
+		}
+	}
+	@media screen and (max-width: 480px) {
+		.hero-title {
+			font-size: 2.2rem;
+		}
+		.hero-subtitle {
+			font-size: 0.9rem;
+		}
+		.hero-subtitle2 {
+			font-size: 0.8rem;
+		}
+		.hero-input {
+			font-size: 0.8rem;
+			width: 10rem;
+		}
+		.hero-submit {
+			font-size: 0.8rem;
+		}
+	}
+	@media screen and (max-width: 420px) {
+		.hero-input {
+			font-size: 0.8rem;
+			width: 8rem;
+		}
+		.hero-submit {
+			font-size: 0.8rem;
+		}
+		.wide-image {
+			width: 80%;
+		}
+	}
+	@media screen and (max-width: 380px) {
+		.hero-title {
+			font-size: 2rem;
+		}
+		.hero-subtitle {
+			font-size: 0.9rem;
+		}
+		.hero-subtitle2 {
+			font-size: 0.8rem;
+		}
+		.hero-icon-location {
+			display: none;
+		}
+		.hero-input {
+			padding-left: 1.6rem;
+			font-size: 0.8rem;
+			border-radius: 10px;
+			width: 85%;
+			margin-bottom: 1rem;
+		}
+		.hero-submit {
+			border-radius: 10px;
+			width: 100%;
+			margin: 0 auto;
+		}
+		.wide-image {
+			width: 80%;
+		}
+	}
+	@media screen and (max-width: 320px) {
+		.hero-logo-white {
+			display: none;
+		}
+	}
 </style>
 
 <svelte:head>
@@ -167,32 +305,32 @@
 	<img class="hero-logo-white" alt="logo-white" src="bike-white-logo.svg" />
 </div>
 
-<section class="container">
+<section class="container con-left">
 	<div class="grid-item left">
 		<h3 class="title">Vårt Mål</h3>
 		<p>Vi på Parcelo UF brinner för det lokala och satsar på att hjälpa lokala butiker och företag att nå en bredare kundkrets genom vår webbplats och app.</p>
 	</div>
 	<div class="grid-item">
-		<img class="image" alt="mission" src="mission.svg" />
+		<img class="image image-mission" alt="mission" src="mission.svg" />
 	</div>
 </section>
-<section class="container wide">
-	<div class="grid-item">
-		<img class="image" alt="how" src="how.svg" />
+<section class="container wide con-right">
+	<div class="grid-item wide-item">
+		<img class="image wide-image" alt="how" src="how.svg" />
 		</div>
-	<div class="grid-item right">
+	<div class="grid-item right wide-item">
 		<h3 class="title">Hur?</h3>
 		<p>Du beställer från någon av dina lokala butiker som sedan skickar vidare din beställning till en av våra cyklister. Cyklisten levererar sedan varan hem till din dörr eller vilken annan adress som du en valt.</p>
 	</div>
 </section>
-<section class="container">
+<section class="container con-left con-app">
 	<div class="grid-item-60 left">
 		<h3 class="title">Utforska appen</h3>
 		<p>Appen finns snart tillgänglig på både iOS och Android.</p>
 		<!--Button-- primary>Learn more</!--Button-->
 	</div>
 	<div class="grid-item-40">
-		<img class="image" alt="app" src="app.svg" />
+		<img class="image wireframe" alt="app" src="app.svg" />
 	</div>
 </section>
 <!--section class="container">

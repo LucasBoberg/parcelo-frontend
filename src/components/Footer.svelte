@@ -29,6 +29,23 @@
     right: 0;
     top: 0;
   }
+
+  @media screen and (max-width: 992px) {
+    .wrapper {
+      grid-template-columns: auto auto;
+    }
+    .footer-image {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 340px) {
+    .wrapper {
+      grid-template-columns: 40% auto;
+    }
+    h1 {
+      font-size: 2rem;
+    }
+  }
 </style>
 
 <footer>
