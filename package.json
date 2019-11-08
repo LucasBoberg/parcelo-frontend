@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "parcelo-frontend",
+  "description": "Frontend for Parcelo",
   "version": "0.0.1",
   "repository": {
     "type": "git",
