@@ -57,7 +57,7 @@
 		margin-bottom: 2.6rem;
 	}
 	.hero-subtitle2 {
-		font-size: 1.2rem;
+		font-size: 0.9rem;
 		margin-top: 1rem;
 	}
 	.hero-form {
@@ -93,7 +93,6 @@
 		transition: background-color 0.1s ease-in-out;
 	}
 	.hero-submit:hover {
-		cursor: not-allowed;
 		background-color: rgb(48, 215, 120);
 	}
 	.hero-submit:disabled, .hero-submit[disabled] {
@@ -283,6 +282,7 @@
 
 <svelte:head>
 	<title>Parcelo - Få det levererat, snabbt</title>
+	<meta name="Description" content="Vi på Parcelo brinner för det lokala och satsar på att hjälpa lokala butiker och företag att nå en bredare kundkrets genom vår webbplats och app. Detta för att de inte ska behöva stänga ner pågrund av att de inte får sålt tillräckligt mycket.">
 </svelte:head>
 
 <nav class="navbar">
@@ -306,7 +306,7 @@
 			<input class="hero-input" autocomplete="off" type="email" name="MERGE0" id="MERGE0" placeholder="Din e-postadress" bind:value={email} class:invalid={!$emailForm.email.valid} />
 			<button class="hero-submit" type="submit" disabled={!$emailForm.valid}>Få tillgång i förväg</button>
 		</form>
-		<h4 class="hero-subtitle2">Bli först om att få prova Parcelo.</h4>
+		<h4 class="hero-subtitle2">Bli först med att få prova Parcelo.</h4>
 		<!--h2 class="hero-title">Get it delivered, fast</!--h2>
 		<h4 class="hero-subtitle">support you local shops</h4>
 		<form-- class="hero-form">
@@ -321,7 +321,7 @@
 <section class="container con-left">
 	<div class="grid-item left">
 		<h3 class="title">Vårt Mål</h3>
-		<p>Vi på Parcelo UF brinner för det lokala och satsar på att hjälpa lokala butiker och företag att nå en bredare kundkrets genom vår webbplats och app.</p>
+		<p>Hos Parcelo brinner vi för det lokala och satsar på att hjälpa lokala butiker och företag. Genom vår webbplats och app kan butikerna nå en bredare kundkrets och på så vis spara både pengar och tid.</p>
 	</div>
 	<div class="grid-item">
 		<img class="image image-mission" alt="mission" src="mission.svg" />
@@ -333,7 +333,7 @@
 		</div>
 	<div class="grid-item right wide-item">
 		<h3 class="title">Hur?</h3>
-		<p>Du beställer från någon av dina lokala butiker som sedan skickar vidare din beställning till en av våra cyklister. Cyklisten levererar sedan varan hem till din dörr eller vilken annan adress som du en valt.</p>
+		<p>Genom våran app beställer du varor från dina lokala butiker som tar emot din beställning och lämnar över den till en av våra cyklister. Vi levererar sedan tryggt och säkert hela vägen till din dörr. Allt under 24h.</p>
 	</div>
 </section>
 <section class="container con-left con-app">
@@ -348,10 +348,10 @@
 </section>
 <!--section class="container">
 	<h3 class="title">Connected Stores</h3>
-	<p>We at Parcelo UF are passionate about the local and invest wholeheartedly in helping local shops and companies to reach onebroader clientele through our website and app.</p>
+	<p>We at Parcelo are passionate about the local and invest wholeheartedly in helping local shops and companies to reach onebroader clientele through our website and app.</p>
 </!--section>
 <section-- class="container">
 	<h3 class="title">Our Sponsors</h3>
-	<p>We at Parcelo UF are passionate about the local and invest wholeheartedly in helping local shops and companies to reach onebroader clientele through our website and app.</p>
+	<p>We at Parcelo are passionate about the local and invest wholeheartedly in helping local shops and companies to reach onebroader clientele through our website and app.</p>
 </section-->
 <Footer />

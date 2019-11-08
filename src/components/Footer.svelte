@@ -53,7 +53,7 @@
     <h1>Parcelo</h1>
     <ul>
       <li class="list-header">SOCIALA MEDIER</li>
-      <li><a target="_blank" href="https://www.instagram.com/parcelouf/">Instagram</a></li>
+      <li><a target="_blank" rel="noopener" href="https://www.instagram.com/parcelouf/">Instagram</a></li>
     </ul>
   </div>
   <img class="footer-image" alt="footer image" src="footer.svg"/>
