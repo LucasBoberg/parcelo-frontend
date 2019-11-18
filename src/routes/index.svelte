@@ -298,7 +298,7 @@
 	<div class="hero-wrapper">
 		<img class="hero-logo-black" alt="logo-black" src="bike-black-logo.svg" />
 		<h2 class="hero-title">Få det levererat, snabbt</h2>
-		<h4 class="hero-subtitle">och samtidigt hjälp dina lokala butiker</h4>
+		<h4 class="hero-subtitle">och hjälp samtidigt dina lokala butiker</h4>
 
 		<form class="hero-form" action="https://gmail.us5.list-manage.com/subscribe/post" method="POST">
 			<input type="hidden" name="u" value="9e83444939d4f4f4a6beab3fd">

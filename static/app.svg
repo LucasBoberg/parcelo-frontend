@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="482px" height="458px" viewBox="0 0 482 458" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
-    <title>wireframe</title>
-    <desc>Created with Sketch.</desc>
+<svg style="font-family: 'Asap', -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;" width="482px" height="458px" viewBox="0 0 482 458" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
         <rect id="path-1" x="0" y="0" width="200.114364" height="412.2" rx="29.1193093"></rect>
         <filter x="-11.7%" y="-3.8%" width="123.5%" height="111.4%" filterUnits="objectBoundingBox" id="filter-2">
@@ -92,13 +89,13 @@
                                 </g>
                             </g>
                             <g id="Group-7" transform="translate(2.426609, 27.178022)">
-                                <g id="Browse" fill="#141414" font-family="Asap-Regular, Asap" font-size="7.76514914" font-weight="normal">
-                                    <text>
+                                <g style="font-family: 'Asap', -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;" id="Browse" fill="#141414" font-family="Asap-Regular, Asap" font-size="7.76514914" font-weight="normal">
+                                    <text style="font-family: 'Asap', -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;">
                                         <tspan x="0" y="7">Browse</tspan>
                                     </text>
                                 </g>
                                 <g id="Delivery" transform="translate(31.060597, 0.000000)" fill="#5A5A5A" font-family="Asap-Regular, Asap" font-size="7.76514914" font-weight="normal">
-                                    <text>
+                                    <text style="font-family: 'Asap', -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;">
                                         <tspan x="0" y="7">Delivery</tspan>
                                     </text>
                                 </g>
@@ -251,9 +248,9 @@
                         </g>
                         <g id="Group" transform="translate(82.019388, 362.050078)">
                             <rect id="Rectangle" fill="#32E37F" fill-rule="nonzero" x="0" y="0" width="86.872606" height="21.3541601" rx="10.6770801"></rect>
-                            <g id="Add-to-Cart" transform="translate(24.266091, 5.823862)" fill="#FFFFFF" font-family="Asap-Medium, Asap" font-size="7.76514914" font-weight="400">
-                                <text>
-                                    <tspan x="0" y="7">Add to Cart</tspan>
+                            <g id="Add-to-Cart" transform="translate(23.759498, 5.890581)" fill="#FFFFFF" font-family="Asap-Medium, Asap" font-size="7.76514914" font-weight="400">
+                                <text style="font-family: 'Asap', -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;">
+                                    <tspan x="0.493406593" y="7.066719">Add to Cart</tspan>
                                 </text>
                             </g>
                         </g>
@@ -265,7 +262,7 @@
                         <g id="Group-2-Copy-2" transform="translate(9.706436, 287.795840)">
                             <rect id="Rectangle" fill="#ADADAD" fill-rule="nonzero" x="0" y="11.1624019" width="172.289246" height="1"></rect>
                             <g id="Group-3-Copy" fill="#000000">
-                                <text id="Product-info" font-family="Asap-Regular, Asap" font-size="6.79450549" font-weight="normal">
+                                <text style="font-family: 'Asap', -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;" id="Product-info" font-family="Asap-Regular, Asap" font-size="6.79450549" font-weight="normal">
                                     <tspan x="0" y="6">Product info</tspan>
                                 </text>
                                 <g id="keyboard_arrow_right-24px-(1)" transform="translate(159.792569, 4.069755) rotate(90.000000) translate(-159.792569, -4.069755) translate(157.792569, 1.569755)" fill-rule="nonzero">
@@ -275,7 +272,7 @@
                         </g>
                         <g id="Group-2-Copy-4" transform="translate(9.706436, 304.782104)">
                             <g id="Group-3" fill="#000000">
-                                <text id="Ratings-(200)" font-family="Asap-Regular, Asap" font-size="6.79450549" font-weight="normal">
+                                <text style="font-family: 'Asap', -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;" id="Ratings-(200)" font-family="Asap-Regular, Asap" font-size="6.79450549" font-weight="normal">
                                     <tspan x="0" y="6">Ratings (200)</tspan>
                                 </text>
                                 <g id="keyboard_arrow_right-24px-(1)" transform="translate(158.086446, 1.260885)" fill-rule="nonzero">
@@ -335,7 +332,7 @@
                         <text id="1-000-kr" fill="#32E37F" font-family="Asap-Regular, Asap" font-size="7.76514914" font-weight="normal">
                             <tspan x="146.081868" y="264.705887">1 000 kr</tspan>
                         </text>
-                        <text id="Inkl.-moms" fill="#898989" font-family="Asap-Regular, Asap" font-size="5.33854003" font-weight="normal">
+                        <text style="font-family: 'Asap', -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;" id="Inkl.-moms" fill="#898989" font-family="Asap-Regular, Asap" font-size="5.33854003" font-weight="normal">
                             <tspan x="147.052512" y="271.44168">Inkl. moms</tspan>
                         </text>
                         <rect id="Rectangle" fill="#D8D8D8" fill-rule="nonzero" x="9.70643642" y="219.850785" width="19.4128728" height="19.4128728" rx="2.42660911"></rect>
@@ -343,8 +340,8 @@
                         <rect id="Rectangle-Copy-3" fill="#D8D8D8" fill-rule="nonzero" x="58.2386185" y="219.850785" width="19.4128728" height="19.4128728" rx="2.42660911"></rect>
                         <g id="Group-2" transform="translate(13.589011, 362.050078)">
                             <rect id="Rectangle-Copy" fill="#EEEEEE" fill-rule="nonzero" x="0" y="0" width="61.1505495" height="21.3541601" rx="10.6770801"></rect>
-                            <g id="Size" transform="translate(23.780769, 5.338540)" fill="#4E4E4E" font-family="Asap-Medium, Asap" font-size="7.76514914" font-weight="400">
-                                <text>
+                            <g id="Size" transform="translate(23.189874, 5.890581)" fill="#4E4E4E" font-family="Asap-Medium, Asap" font-size="7.76514914" font-weight="400">
+                                <text style="font-family: 'Asap', -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;">
                                     <tspan x="0" y="7">Size</tspan>
                                 </text>
                             </g>
