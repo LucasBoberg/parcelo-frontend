@@ -110,6 +110,10 @@
 		max-width: 50vw;
 		margin: 10vh auto;
 	}
+	.container.single-column {
+		text-align: center;
+		display: block;
+	}
 	.wide {
 		max-width: 70vw;
 	}
@@ -141,6 +145,9 @@
 		margin: 0 auto;
 		align-self: center;
 		justify-self: center;
+	}
+	.sponsor-image {
+		margin-top: 2rem;
 	}
 	@media screen and (max-width: 1062px) {
 		.hero-logo-white {
@@ -231,6 +238,9 @@
 		}
 		.hero-submit {
 			font-size: 0.8rem;
+		}
+		.sponsor-image {
+			width: 90%;
 		}
 	}
 	@media screen and (max-width: 420px) {
@@ -347,12 +357,12 @@
 		<img class="image wireframe" alt="app" src="app.svg" />
 	</div>
 </section>
-<!--section class="container">
+<!--section-- class="container">
 	<h3 class="title">Connected Stores</h3>
 	<p>We at Parcelo are passionate about the local and invest wholeheartedly in helping local shops and companies to reach onebroader clientele through our website and app.</p>
-</!--section>
-<section-- class="container">
-	<h3 class="title">Our Sponsors</h3>
-	<p>We at Parcelo are passionate about the local and invest wholeheartedly in helping local shops and companies to reach onebroader clientele through our website and app.</p>
-</section-->
+</!--section-->
+<section class="container single-column">
+	<h3 class="title">Vår sponsor</h3>
+	<a href="https://itgrafiska.se" target="_blank" rel="noopener"><img class="image sponsor-image" alt="it-grafiska" src="it-grafiska-logo.svg" /></a>
+</section>
 <Footer />
