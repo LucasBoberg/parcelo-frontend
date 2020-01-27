@@ -8,7 +8,7 @@
     padding: 3rem 8vw;
     color: #FFF;
     display: grid;
-    grid-template-columns: 18% 20% auto;
+    grid-template-columns: 18% 20% 20% auto;
   }
   h1 {
     font-size: 3rem;
@@ -32,7 +32,7 @@
 
   @media screen and (max-width: 1024px) {
     .wrapper {
-      grid-template-columns: auto auto auto;
+      grid-template-columns: auto auto auto auto;
     }
     .footer-image {
       display: none;
@@ -42,6 +42,9 @@
     .wrapper {
       grid-template-columns: auto;
       padding-bottom: 0;
+    }
+    footer {
+      height: auto;
     }
     h1 {
       font-size: 2rem;
@@ -59,6 +62,11 @@
 <footer>
   <div class="wrapper">
     <h1>Parcelo</h1>
+    <ul>
+      <li class="list-header">FÖRETAG</li>
+      <li><a target="_blank" rel="noopener" href="/cookies">Cookies</a></li>
+      <li><a target="_blank" rel="noopener" href="/terms">Användarvillkor</a></li>
+    </ul>
     <ul>
       <li class="list-header">SOCIALA MEDIER</li>
       <li><a target="_blank" rel="noopener" href="https://www.instagram.com/parcelouf/">Instagram</a></li>

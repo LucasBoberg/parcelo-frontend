@@ -34,6 +34,24 @@ code {
 	border-radius: 2px;
 }
 
+.cookieConsentWrapper {
+	background: rgba(0, 0, 0, 0.7) !important;
+}
+
+.cookieConsentToggle {
+	display: none !important;
+}
+
+.cookieConsent__Button[type="submit"] {
+	background: #32E37F;
+	color: #FFF;
+	border-radius: 10px;
+}
+
+.cookieConsent__Button[type="button"] {
+	display: none !important;
+}
+
 @media (min-width: 400px) {
 	body {
 		font-size: 16px;

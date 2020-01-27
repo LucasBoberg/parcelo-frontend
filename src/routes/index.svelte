@@ -112,7 +112,8 @@
 	}
 	.container.single-column {
 		text-align: center;
-		display: block;
+		display: grid;
+    	grid-template-columns: auto;
 	}
 	.wide {
 		max-width: 70vw;
@@ -148,6 +149,7 @@
 	}
 	.sponsor-image {
 		margin-top: 2rem;
+		margin-bottom: 4rem;
 	}
 	@media screen and (max-width: 1062px) {
 		.hero-logo-white {
@@ -362,7 +364,8 @@
 	<p>We at Parcelo are passionate about the local and invest wholeheartedly in helping local shops and companies to reach onebroader clientele through our website and app.</p>
 </!--section-->
 <section class="container single-column">
-	<h3 class="title">Vår sponsor</h3>
+	<h3 class="title">Våra sponsorer</h3>
+	<a href="https://thenaiainitiative.se/" target="_blank" rel="noopener"><img class="image sponsor-image" alt="it-grafiska" src="naia.png" /></a>
 	<a href="https://itgrafiska.se" target="_blank" rel="noopener"><img class="image sponsor-image" alt="it-grafiska" src="it-grafiska-logo.svg" /></a>
 </section>
 <Footer />
