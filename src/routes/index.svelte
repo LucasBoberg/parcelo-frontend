@@ -149,7 +149,6 @@
 	}
 	.sponsor-image {
 		margin-top: 2rem;
-		margin-bottom: 4rem;
 	}
 	@media screen and (max-width: 1062px) {
 		.hero-logo-white {
